@@ -32,7 +32,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        where python
         
     - name: Run a one-line script
       run: echo Hello, world!
