@@ -4,8 +4,7 @@
 name: Workflow2
 
 on:
-  repository_dispatch:
-    types: [Workflow2]
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
